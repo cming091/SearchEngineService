@@ -1,0 +1,12 @@
+PyYAML
+lxml
+redis
+pymongo
+Flask_Cors==3.0.6
+flask_restful_swagger==0.20.1
+celery==4.2.1
+Flask_SQLAlchemy==2.3.2
+Flask_RESTful==0.3.6
+Flask==1.0.2
+Flask_And_Redis==0.7
+elasticsearch

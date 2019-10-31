@@ -1,0 +1,43 @@
+swagger: '2.0'
+info:
+  description: '推荐系统接口文档'
+  version: 1.0.0
+  title: Swagger Petstore
+  contact:
+    email: shoumingchen@wifi.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+host: localhost:8090
+basePath: /api
+tags:
+  - name: pet
+    description: search engine apis
+    externalDocs:
+      description: Find out more
+      url: 'http://swagger.io'
+
+schemes:
+  - http
+paths:
+  /media/top:
+    get:
+      tags:
+        - pet
+      summary: query elasticsearch for top medias
+      description: '查询占比最高的10个平台'
+      operationId: query top media list for es
+      consumes:
+        - application/json
+      produces:
+        - application/json
+
+      responses:
+        '405':
+          description: Invalid input
+        '200':
+          description: ok
+
+externalDocs:
+  description: Find out more about Swagger
+  url: 'http://swagger.io'
