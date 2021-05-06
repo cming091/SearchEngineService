@@ -2,7 +2,7 @@ PyYAML
 lxml
 redis
 pymongo
-Flask_Cors==3.0.6
+Flask_Cors==3.0.9
 flask_restful_swagger==0.20.1
 celery==4.2.1
 Flask_SQLAlchemy==2.3.2
